@@ -1,0 +1,14 @@
+<plugin name='maven-publisher' version='0.6' grailsVersion='1.2 &gt; *'>
+  <author>Graeme Rocher</author>
+  <authorEmail>grocher@vmware.com</authorEmail>
+  <title>A plugin that allows you to publish and/or resolve Grails application and plugins to Maven repositories without needing to use Maven directly</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/maven-publisher</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>

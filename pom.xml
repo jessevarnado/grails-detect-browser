@@ -1,0 +1,19 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>browser-detect</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1</version>
+  <name>browser-detect</name>
+  <distributionManagement>
+    <repository>
+      <id>internal</id>
+      <name>Archiva Managed Internal Repository</name>
+      <url>dav:http://slice.nolatechhelp.com/archiva/repository/internal/</url>
+    </repository>
+	<snapshotRepository>
+      <id>snapshots</id>
+      <url>dav:http://slice.nolatechhelp.com/archiva/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</project>

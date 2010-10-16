@@ -1,0 +1,21 @@
+<plugin name='browser-detect' version='0.1' grailsVersion='1.3.2 &gt; *'>
+  <author>Jesse Varnado	</author>
+  <authorEmail>Jesse.Varnado@nolatechhelp.com</authorEmail>
+  <title>Browser Detection Never Seemed So Easy</title>
+  <description>\
+Plugin version of Kevin M. Gill's tutorial at http://www.wthr.us/2010/02/03/simple-grails-browser-detection/
+</description>
+  <documentation>http://grails.org/plugin/browser-detect</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.nolatechhelp.browserDetect.TestController</resource>
+    <resource>com.nolatechhelp.browserDetect.UserAgentIdentService</resource>
+    <resource>com.nolatechhelp.browserDetect.WebTierService</resource>
+    <resource>com.nolatechhelp.browserDetect.GlobalTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
